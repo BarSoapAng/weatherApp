@@ -1,0 +1,58 @@
+.display {
+  margin: 0;
+  padding: 0;
+  background-color: #fff8b7; /* Soft yellow background */
+  width: 300px;
+  height: 100px;
+  
+  padding: 10px;
+  box-sizing: border-box;
+
+  color: rgb(71, 71, 71);
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.right {
+  width: 60%;
+  height: 100%;
+  top: 0px;
+  right: 0;
+}
+
+#location {
+  height: 1%;
+  line-height: 5%; 
+  font-size: 11px;
+  margin: 0;
+  margin-top: 5px;
+  padding: 0;
+}
+
+.condition {
+  margin: auto;
+  padding: 0 20px 0 10px;
+  width: 100%;
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: row;
+  column-gap: 20px;
+  align-items: center;
+}
+
+.temp {
+  display: flex;
+  flex-direction: column;
+
+  & h1 {
+    margin: 0;
+    padding: 0;
+  }
+  & p {
+    margin: 0;
+    padding: 0;
+  }
+}

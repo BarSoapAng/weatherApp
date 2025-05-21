@@ -1,30 +1,9 @@
+//const { googleKey, weatherKey } = require('./keys.json');
+
+
 // Define the API URL
-const apiUrl = 'http://api.weatherapi.com/v1';
-let location;
-
-function showCity(position) {
-  const latitude = position.coords.latitude;
-  const longitude = position.coords.longitude;
-
-  // Make a request to a Geocoding API (e.g. Google Maps Geocoding API)
-  const url = `https://maps.googleapis.com/maps/api/geocode/json?latlng=${latitude},${longitude}&key=AIzaSyDhjbp3IRIPOh8m-U73R1cVsy0iKcDSpco`;
-
-  fetch(url)
-    .then((response) => response.json())
-    .then((data) => {
-      // Parse the city name from the API response
-      const city = data.results[0].address_components.find((component) =>
-        component.types.includes("locality")
-      ).long_name;
-
-      console.log(`Your city is ${city}.`);
-      location = city;
-    })
-    .catch((error) => console.log(error));
-}
-
-navigator.geolocation.getCurrentPosition(showCity);
-console.log(location);
+// const apiUrl = `http://api.weatherapi.com/v1/current.json?key=${weatherKey}&q=Waterloo`;
+const apiUrl = `http://api.weatherapi.com/v1/current.json?key=236455085933479e90f145839252005&q=Waterloo`;
 
 // Make a GET request
 fetch(apiUrl)
@@ -35,8 +14,18 @@ fetch(apiUrl)
     return response.json();
   })
   .then(data => {
-    console.log(data);
+    const imgLink = data.current.condition.icon;
+    const curTemp = data.current.temp_c;
+    const feelsLike = data.current.feelslike_c;
+
+    let conditionImg = document.getElementById("conditionImg");
+    conditionImg.src = imgLink;
+    let tempHeader = document.getElementById("curTemp");
+    tempHeader.innerHTML = curTemp + "°C";
+    let tempFeel = document.getElementById("feelsLike");
+    tempFeel.innerHTML = "feels like " + feelsLike + "°C";
   })
   .catch(error => {
     console.error('Error:', error);
 });
+
