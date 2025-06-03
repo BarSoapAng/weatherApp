@@ -1,0 +1,125 @@
+{
+    "day" : {
+        "1000" : "icons/day/clear-day.png",
+        "1003" : "icons/day/cloudy-day.png",
+        "1006" : "icons/day/cloudy-day.png",
+        "1009" : "icons/day/cloudy-day.png",
+        "1030" : "icons/day/cloudy-day.png",
+
+        "1063" : "icons/day/rain-day.png",
+
+        "1066" : "icons/day/snow-day.png",
+        "1072" : "icons/day/snow-day.png",
+        "1069" : "icons/day/snow-day.png",
+
+        "1087" : "icons/day/rain-day.png",
+
+        "1114" : "icons/day/snow-day.png",
+        "1117" : "icons/day/snow-day.png",
+
+        "1135" : "icons/day/cloudy-day.png",
+        "1147" : "icons/day/cloudy-day.png",
+
+        "1150" : "icons/day/rain-day.png",
+        "1153" : "icons/day/rain-day.png",
+        "1168" : "icons/day/snow-day.png",
+        "1171" : "icons/day/snow-day.png",
+
+        "1180" : "icons/day/snow-day.png",
+        "1183" : "icons/day/snow-day.png",
+        "1186" : "icons/day/snow-day.png",
+        "1189" : "icons/day/snow-day.png",
+        "1192" : "icons/day/snow-day.png",
+        "1195" : "icons/day/snow-day.png",
+        "1198" : "icons/day/snow-day.png",
+        "1201" : "icons/day/snow-day.png",
+
+        "1204" : "icons/day/snow-day.png",
+        "1207" : "icons/day/snow-day.png",
+        "1210" : "icons/day/snow-day.png",
+        "1213" : "icons/day/snow-day.png",
+        "1216" : "icons/day/snow-day.png",
+        "1219" : "icons/day/snow-day.png",
+        "1222" : "icons/day/snow-day.png",
+        "1225" : "icons/day/snow-day.png",
+        "1237" : "icons/day/snow-day.png",
+
+        "1240" : "icons/day/rain-day.png",
+        "1243" : "icons/day/rain-day.png",
+        "1246" : "icons/day/rain-day.png",
+        "1249" : "icons/day/rain-day.png",
+        "1252" : "icons/day/rain-day.png",
+
+        "1255" : "icons/day/snow-day.png",
+        "1258" : "icons/day/snow-day.png",
+        "1261" : "icons/day/snow-day.png",
+        "1264" : "icons/day/snow-day.png",
+        "1279" : "icons/day/snow-day.png",
+        "1282" : "icons/day/snow-day.png",
+
+        "1273" : "icons/day/rain-day.png",
+        "1276" : "icons/day/rain-day.png"
+    },
+
+    "night" : {
+        "1000" : "icons/night/clear-night.png",
+        "1003" : "icons/night/cloudy-night.png",
+        "1006" : "icons/night/cloudy-night.png",
+        "1009" : "icons/night/cloudy-night.png",
+        "1030" : "icons/night/cloudy-night.png",
+
+        "1063" : "icons/night/rain-night.png",
+
+        "1066" : "icons/night/snow-night.png",
+        "1072" : "icons/night/snow-night.png",
+        "1069" : "icons/night/snow-night.png",
+
+        "1087" : "icons/night/rain-night.png",
+
+        "1114" : "icons/night/snow-night.png",
+        "1117" : "icons/night/snow-night.png",
+
+        "1135" : "icons/night/cloudy-night.png",
+        "1147" : "icons/night/cloudy-night.png",
+
+        "1150" : "icons/night/rain-night.png",
+        "1153" : "icons/night/rain-night.png",
+        "1168" : "icons/night/snow-night.png",
+        "1171" : "icons/night/snow-night.png",
+
+        "1180" : "icons/night/snow-night.png",
+        "1183" : "icons/night/snow-night.png",
+        "1186" : "icons/night/snow-night.png",
+        "1189" : "icons/night/snow-night.png",
+        "1192" : "icons/night/snow-night.png",
+        "1195" : "icons/night/snow-night.png",
+        "1198" : "icons/night/snow-night.png",
+        "1201" : "icons/night/snow-night.png",
+
+        "1204" : "icons/night/snow-night.png",
+        "1207" : "icons/night/snow-night.png",
+        "1210" : "icons/night/snow-night.png",
+        "1213" : "icons/night/snow-night.png",
+        "1216" : "icons/night/snow-night.png",
+        "1219" : "icons/night/snow-night.png",
+        "1222" : "icons/night/snow-night.png",
+        "1225" : "icons/night/snow-night.png",
+        "1237" : "icons/night/snow-night.png",
+
+        "1240" : "icons/night/rain-night.png",
+        "1243" : "icons/night/rain-night.png",
+        "1246" : "icons/night/rain-night.png",
+        "1249" : "icons/night/rain-night.png",
+        "1252" : "icons/night/rain-night.png",
+
+        "1255" : "icons/night/snow-night.png",
+        "1258" : "icons/night/snow-night.png",
+        "1261" : "icons/night/snow-night.png",
+        "1264" : "icons/night/snow-night.png",
+        "1279" : "icons/night/snow-night.png",
+        "1282" : "icons/night/snow-night.png",
+        
+        "1273" : "icons/night/rain-night.png",
+        "1276" : "icons/night/rain-night.png"
+    }
+}
